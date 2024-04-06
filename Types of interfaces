@@ -1,0 +1,7 @@
+//Types of interfaces 
+1) Normal interfaces
+normal interface define the methods and variables normal variable contains one or more than one methods
+2) Functional interfaces
+it is a interface which contains only one method. it is also called SAM (Single Abstract method)
+3) Marker interfaces 
+marker interface doesnot contain any method or constants. it is also called tagging interface 
