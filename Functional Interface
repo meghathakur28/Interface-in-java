@@ -1,0 +1,20 @@
+@FunctionalInterface        // this is the annotation which specify that this interface is function and we cannot use more than one method in it 
+interface A{
+    public void show();
+}
+class B implements A{
+    public void show()
+    {
+        System.out.println("in show");
+    }
+
+}
+public class functionalInterface {
+    public static void main(String[] args) {
+            A obj=new B();
+            obj.show();
+    }
+
+}
+//functional interface is the interface which contains only one method 
+//functional interface is specially used in lambda expression 
